@@ -4,7 +4,6 @@ let lastName = "lesky"
 console.log (lastName)
 var age = 30
 console.log (age)
-let nameCompleted = name + " " + lastName + " tiene " + " " + age + " años "
-console.log (nameCompleted)
+console.log (name + " " + lastName + " tiene " + " " + age + " años ")
 var age = age + 1 // agregamos un año mas
-console.log (age)
+console.log (name + " " + lastName + " tiene " + " " + age + " años ")
