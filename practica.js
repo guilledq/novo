@@ -7,3 +7,4 @@ console.log (age)
 console.log (name + " " + lastName + " tiene " + " " + age + " años ")
 var age = age + 1 // agregamos un año mas
 console.log (name + " " + lastName + " tiene " + " " + age + " años ")
+2022
