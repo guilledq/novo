@@ -1,5 +1,10 @@
-
-console.log ("hola mundo")
-2021
-console.log("good night")
-2022
+const name = "guille"
+console.log (name)
+let lastName = "lesky"
+console.log (lastName)
+var age = 30
+console.log (age)
+let nameCompleted = name + " " + lastName + " tiene " + " " + age + " años "
+console.log (nameCompleted)
+var age = age + 1
+console.log (age)
