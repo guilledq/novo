@@ -6,5 +6,5 @@ var age = 30
 console.log (age)
 let nameCompleted = name + " " + lastName + " tiene " + " " + age + " años "
 console.log (nameCompleted)
-var age = age + 1
+var age = age + 1 // agregamos un año mas
 console.log (age)
