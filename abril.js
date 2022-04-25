@@ -1,7 +1,7 @@
 //const  age = 26
-//if (age > 18){
+//if (age >= 18){
 //    console.log("Es mayor de edad")
-//} else if (age < 18){
+//} else if (age <=18){
 //    console.log("Es menor de edad")
 //}
 
