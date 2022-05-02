@@ -1,4 +1,4 @@
-//const  age = 26
+//const  age = 18
 //if (age >= 18){
 //    console.log("Es mayor de edad")
 //} else if (age <=18){
@@ -21,23 +21,24 @@
 //} else if (numero > 29){
 //    console.log("Es impar")
 //}
-const diaSemana = 3
-switch (diaSemana) {
-    case 1: 
-    console.log("no es finde")
-    break
-    case 2: 
-    console.log("no es finde")
-    break
-    case 3: 
-    console.log("no es finde")
-    break
-    case 4: 
-    console.log("no es finde")
-    break
-    case 5: 
-    console.log("no es finde")
-    break
-    default:
-        console.log("es finde")
-}
+//const diaSemana = 3
+//switch (diaSemana) {
+//    case 1: 
+//    console.log("no es finde")
+//    break
+//    case 2: 
+//    console.log("no es finde")
+//    break
+//    case 3: 
+//    console.log("no es finde")
+//    break
+//    case 4: 
+//    console.log("no es finde")
+//    break
+//    case 5: 
+//    console.log("no es finde")
+//    break
+//    default:
+//        console.log("es finde")
+//}
+
