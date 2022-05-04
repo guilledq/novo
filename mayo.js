@@ -9,20 +9,23 @@
 //}
 //console.log(">>>", suma (23, 30))
 
-let array = [
-    {
-        nombre: "soylo"
-    },
-    {
-        nombre: "nacle"
-    },
-]
+//let array = [
+//   {
+//        nombre: "soylo"
+//    },
+//    {
+//        nombre: "nacle"
+//    },
+//]
 
-const saludarPersonas = (arrayDePersonas) => {
-    array.forEach(persona =>{
-        console.log(
-            "Hola ", persona.nombre
-        )
-    })
-}
-saludarPersonas(array)
+//const saludarPersonas = (arrayDePersonas) => {
+//    array.forEach(persona =>{
+//        console.log(
+//            "Hola ", persona.nombre
+//        )
+//    })
+//}
+//saludarPersonas(array)
+
+const holaMundo = () => console.log ("Hola mundo!")
+holaMundo ()
