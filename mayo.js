@@ -26,4 +26,3 @@ const saludarPersonas = (arrayDePersonas) => {
     })
 }
 saludarPersonas(array)
-2020
