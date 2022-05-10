@@ -27,5 +27,24 @@
 //}
 //saludarPersonas(array)
 
-const holaMundo = () => console.log ("Hola mundo!")
-holaMundo ()
+//const holaMundo = () => console.log ("Hola mundo!")
+//holaMundo ()
+
+//const sumarSaludos = () => {
+//   let contador = 0;
+//    arrayDePersonas.forEach(() => {
+//        let otraPersona = "exequiel"
+//        contador ++
+//    })
+//    console.log (contador)
+//}
+//sumarSaludos ()
+
+const verificarPositivo = (numero) => {
+        if (numero > 0){
+            return numero
+        } else {
+            return -numero
+        }
+}
+console.log (verificarPositivo (-2))
