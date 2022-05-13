@@ -47,4 +47,19 @@ const verificarPositivo = (numero) => {
             return -numero
         }
 }
-console.log (verificarPositivo (-2))
+
+const miResolucion = (numeroEntero) => {
+    let contador = 0;
+    let miNuevoNumero = verificarPositivo(numeroEntero)
+    let miNumeroEnBinario = miNuevoNumero.toString(2)
+
+    let miArrayDeNumeroBinario = miNumeroEnBinario.split("")
+
+    miArrayDeNumeroBinario.forEach(numero => {
+        if (numero == 1){
+            contador++
+        }    
+    });
+    return contador
+}
+console.log(miResolucion(1234))
