@@ -55,11 +55,23 @@ const miResolucion = (numeroEntero) => {
 
     let miArrayDeNumeroBinario = miNumeroEnBinario.split("")
 
-    miArrayDeNumeroBinario.forEach(numero => {
+/*    miArrayDeNumeroBinario.forEach(numero => {
         if (numero == 1){
             contador++
         }    
-    });
+    })*/
+
+    /*for (let i = 0; i < miArrayDeNumeroBinario.lenght; i++){
+        if (miArrayDeNumeroBinario[i] == 1 ) {
+            contador++
+        }
+    }*/
+
+    for (elemento of miArrayDeNumeroBinario){
+        if (elemento == 1) {
+            contador++
+        }
+    }
     return contador
 }
 console.log(miResolucion(1234))
