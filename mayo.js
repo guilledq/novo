@@ -75,3 +75,4 @@ const miResolucion = (numeroEntero) => {
     return contador
 }
 console.log(miResolucion(1234))
+my name is... my name is...
